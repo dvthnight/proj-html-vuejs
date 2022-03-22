@@ -1,7 +1,7 @@
 <template>
     <nav>
         <ul>
-            <li v-for="(el,i) in navigazione" :key="i" :class="[{'active' : i==0}, {'button' : el =='Schedule a workout'}]">
+            <li v-for="(el,i) in navigazione" :key="i" :class="[{'active' : i==0}, {'button button-blu' : el =='Schedule a workout'}]">
                 <a href="#">{{el}}</a>
             </li>
         </ul>
@@ -39,8 +39,6 @@ export default {
         }
     }
 
-    .button{
-        background-color: #4154fe;
-    }
+    
 
 </style>
