@@ -29,6 +29,7 @@ export default {
         gap: 30px;
         justify-content: space-between;
         align-items: center;
+        font-weight: 500;
 
         ul{
             display: contents;
@@ -36,6 +37,10 @@ export default {
         
         .icone{
             display: contents;
+        }
+
+        .button{
+            font-size: 15px;
         }
     }
 

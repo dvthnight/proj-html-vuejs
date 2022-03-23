@@ -1,7 +1,7 @@
 <template>
     <section>
-        <div class="sez-1"></div>
-        <div class="contenitore cont_sez_1 ">
+        <div class="sez-5"></div>
+        <div class="contenitore cont_sez_5 ">
             <h4>Join our mailing list today</h4>
             <h1>Insider offers & flash sales in your inbox every week.</h1>
             <div class="onda"></div>
@@ -28,10 +28,10 @@ export default {
         position: relative;
     }
 
-   .sez-1{
+   .sez-5{
        background-image: url("../assets/img_fitness/banner1-2x.jpg");
        width: 100%;
-       height: 700px;
+       height: 600px;
        background-size: contain;
        background-repeat: no-repeat;
        background-position: right;
@@ -39,7 +39,7 @@ export default {
        position: relative;
     }
 
-    .sez-1::after{
+    .sez-5::after{
         content: " ";
         display: block;
         position: absolute;
@@ -51,7 +51,7 @@ export default {
         transform: translate(-50%,-50%);
     }
 
-    .cont_sez_1{
+    .cont_sez_5{
         position: absolute;
         top: 50%;
         left: 292px;
