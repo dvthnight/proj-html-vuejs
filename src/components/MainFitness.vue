@@ -7,6 +7,7 @@
         <Sez4/>
         <Sez5/>
         <Sez6/>
+        <Sez7/>
     </main>
 </template>
 
@@ -17,6 +18,7 @@
     import Sez4 from "./Sez-4.vue"
     import Sez5 from "./Sez-5.vue"
     import Sez6 from "./Sez-6.vue"
+    import Sez7 from "./Sez-7.vue"
 export default {
     components:{
         Sez1,
@@ -25,6 +27,7 @@ export default {
         Sez4,
         Sez5,
         Sez6,
+        Sez7,
     },
     data(){
         return{
