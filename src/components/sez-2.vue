@@ -64,7 +64,7 @@ export default {
         height: 440px;
         width: 400px;
         border-radius: 5px;
-        border-bottom-right-radius: 50px;
+        border-bottom-right-radius: 40px;
         position: relative;
         overflow: hidden;
         

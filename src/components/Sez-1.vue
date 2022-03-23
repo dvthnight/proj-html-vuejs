@@ -89,7 +89,9 @@ export default {
            font-weight: 500;
        }
 
-       
+       .visit_youtube:hover{
+            background-color:#ec5a57;
+        }
 
        .buy_avada{
            border: 2px solid #5f5f61;

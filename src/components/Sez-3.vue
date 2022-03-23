@@ -90,5 +90,13 @@ export default {
             font-weight: 400;
             margin-bottom: 20px;
         }
+
+        .visit_youtube{
+            background-color: rgb(229, 45, 31);
+        }
+
+        .visit_youtube:hover{
+            opacity: 0.9;
+        }
     }
 </style>
