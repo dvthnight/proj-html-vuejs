@@ -50,18 +50,37 @@ a{
     padding: 25px;
     background-color: white;
     border-radius: 999999px;
-    position: absolute;
-    top: 40%;
-    transform: translateY(-50%);
-    left: 80%;
     aspect-ratio: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 25px;
+    max-width: 100px;
+    position: absolute;
+
 }
 
 .play_video:hover{
     color: #ec5a57;
     transition: all 0.5s ease-in-out;
+}
+
+.visit_youtube{
+    max-width: 300px;
+    text-align: center;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    a{
+        display: contents;
+    }
+    font-weight: 500;
+    
+}
+
+.visit_youtube:hover{
+    background-color: #ec5a57;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }

@@ -48,7 +48,7 @@ export default {
 
 <style lang="scss" scoped>
     section{
-        height: 820px;
+        height: 910px;
         background-image: linear-gradient(to top left, #bc0428,rgb(0,38,196));
     }
 

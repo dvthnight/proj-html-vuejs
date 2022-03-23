@@ -7,7 +7,9 @@
             <div class="onda"></div>
             <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet.</p>
             <div class="bottoni">
-                <div class="button button-blu visit_youtube"><a href="#"><i class="fa-brands fa-youtube"></i> Visit my YouTube channel</a></div>
+                <div class="button button-blu visit_youtube">
+                    <a href="#"><i class="fa-brands fa-youtube"></i> Visit my YouTube channel</a>
+                    </div>
                 <div class="button buy_avada"><a href="#">Buy Avada today <i class="fa-regular fa-arrow-right"></i></a></div>
             </div>
         </div>
@@ -87,35 +89,21 @@ export default {
            font-weight: 500;
        }
 
-       .visit_youtube{
-           max-width: 300px;
-           text-align: center;
-           padding: 10px 30px;
-           display: flex;
-           align-items: center;
-           gap: 10px;
-           a{
-               display: contents;
-           }
-       }
-
-       .visit_youtube:hover{
-           background-color: #ec5a57;
-           cursor: pointer;
-           transition: all 0.3s ease-in-out;
-       }
+       
 
        .buy_avada{
            border: 2px solid #5f5f61;
            max-width: 250px;
            text-align: center;
-           padding: 10px 30px;
+           padding: 20px 40px;
             display: flex;
            align-items: center;
            gap: 10px;
            a{
                display: contents;
            }
+           font-weight: 500;
+
        }
 
        .buy_avada:hover{
@@ -130,11 +118,14 @@ export default {
            margin: 40px;
            display: flex;
            gap: 20px;
-           font-weight: 500;
        }
     }
 
-    
+    .play_video{
+        top: 40%;
+        transform: translateY(-50%);
+        left: 80%;
+    }
        
     .quadratini{
         color: rgb(51, 71, 91);
