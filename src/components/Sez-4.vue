@@ -49,6 +49,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    section{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
     .intestazione{
         display: flex;
         justify-content: space-between;

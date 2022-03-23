@@ -75,6 +75,7 @@ export default {
             font-size: 30px;
             color: rgb(241, 74, 71);
             font-weight: 500;
+            margin-bottom: 10px;
        }
 
        h1{
@@ -85,7 +86,7 @@ export default {
 
        p{
            color: #78787a;
-           font-size: 20px;
+           font-size: 25px;
            font-weight: 500;
        }
 
@@ -104,7 +105,6 @@ export default {
            a{
                display: contents;
            }
-           font-weight: 500;
 
        }
 
