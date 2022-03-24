@@ -34,13 +34,30 @@ export default {
         ul{
             display: contents;
         }
+
+        a{
+            transition: all 0.3s ease-in-out;
+            font-size: 18px;
+        }
+        a:hover{
+            color: white;
+        }
         
         .icone{
             display: contents;
         }
 
         .button{
-            font-size: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                font-size: 15px;
+            }
+        }
+        .button:hover{
+            background-color: #ec5a57;
+            cursor: pointer;
         }
     }
 

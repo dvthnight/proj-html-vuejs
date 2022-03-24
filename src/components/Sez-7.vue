@@ -115,7 +115,10 @@ export default {
 
         .card_image:hover::after{
             opacity: 1;
-            
+        }
+
+        .card_image:hover{
+            cursor: pointer;
         }
 
 

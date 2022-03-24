@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Fix/>
     <Header />
     <Main />
     <Footer/>
@@ -11,13 +12,15 @@
 import Header from "./components/HeaderFitness"
 import Main from "./components/MainFitness.vue"
 import Footer from "./components/FooterFitness.vue"
+import Fix from "./components/FixFitness.vue"
 
 export default {
   name: 'App',
   components: {
     Header,
     Main,
-    Footer
+    Footer,
+    Fix
   }
 }
 </script>

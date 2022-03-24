@@ -18,16 +18,7 @@
             <i class="fa-solid fa-play"></i>
         </div>
 
-        <div class="quadratini">
-            <div class="demos">
-
-                <h5>Demos</h5>
-            </div>
-            <div class="sale">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <h5>On sale</h5>
-            </div>
-        </div>
+        
     </section>
 </template>
 
@@ -134,25 +125,5 @@ export default {
         left: 80%;
     }
        
-    .quadratini{
-        color: rgb(51, 71, 91);
-        position: absolute;
-        right: 20px;
-        top: 10%;
-        
-        .demos, .sale{
-            padding: 10px;
-            background-color: white;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 5px;
-            aspect-ratio: 1;
-
-        }
-
-    }
+    
 </style>

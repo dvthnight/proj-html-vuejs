@@ -54,14 +54,14 @@ export default {
 
         .card{
             width: 400px;
-            padding: 50px;
+            padding: 70px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             gap: 40px;
-            border: 3px solid #4154fe;
-            border-radius: 5px;
+            border: 5px solid #4154fe;
+            border-radius: 10px;
 
             h3{
                 color: white;
@@ -90,7 +90,7 @@ export default {
 
             .icona{
                 filter: invert(1);
-                width: 200px;
+                width: 100px;
             }
         }
 
