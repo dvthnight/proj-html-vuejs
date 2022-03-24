@@ -61,6 +61,27 @@ export default {
         }
     }
 
+
+    li:nth-last-child(2){
+        a{
+            position: relative;
+            margin-right: 50px;
+        }
+        a::after{
+            content: "New";
+            display: block;
+            top: 50%;
+            left: 160%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            color: black;
+            background-color: yellow;
+            border-radius: 5px;
+            font-size: 13px;
+            padding: 4px 8px;
+        }
+    }
+
     
 
 </style>
