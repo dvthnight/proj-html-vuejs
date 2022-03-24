@@ -13,7 +13,7 @@
             <p>Arcu eu facilisi ut quisque placerat nunc habitant. Magna semper mauris, venenatis, leo integer sit pellentesque.</p>
             <div class="button button-blu visit_youtube">
                 <a href="#"><i class="fa-brands fa-youtube"></i> Visit my YouTube channel</a>
-                </div>
+            </div>
 
         </div>
     </section>
