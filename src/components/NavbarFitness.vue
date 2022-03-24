@@ -54,6 +54,7 @@ export default {
             a{
                 font-size: 15px;
             }
+            padding: 12px 27px;
         }
         .button:hover{
             background-color: #ec5a57;
