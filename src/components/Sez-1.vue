@@ -4,7 +4,8 @@
         <div class="contenitore cont_sez_1 ">
             <h4>Certified fitness professional</h4>
             <h1>Take control of your health</h1>
-            <div class="onda"></div>
+            <div class="onda">
+            </div>
             <p>Curabitur non nulla sit amet nisl tempus convallis quis ac lectus dolor sit amet.</p>
             <div class="bottoni">
                 <div class="button button-blu visit_youtube">
@@ -88,6 +89,10 @@ export default {
            color: #78787a;
            font-size: 25px;
            font-weight: 500;
+       }
+
+       .onda{
+           color: yellow
        }
 
        .visit_youtube:hover{
