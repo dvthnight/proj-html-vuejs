@@ -81,8 +81,9 @@ export default {
             h2{
                 color: white;
                 font-weight: 500;
-                font-size: 30px;
+                font-size: 25px;
                 margin-bottom: 30px;
+                text-transform: uppercase;
             }
 
             li,p{
