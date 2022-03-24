@@ -41,5 +41,10 @@ export default {
 
         }
 
+        .demos:hover, .sale:hover{
+            cursor: pointer;
+            scale: 1.03;
+        }
+
     }
 </style>
