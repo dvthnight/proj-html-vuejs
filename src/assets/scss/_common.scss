@@ -42,6 +42,8 @@ a{
     max-width: 350px;
     font-size: 20px;
     font-weight: 500;
+    transition: all 0.3s ease-in-out;
+
 
 }
 
@@ -84,5 +86,4 @@ a{
 .visit_youtube:hover{
     background-color: #ec5a57;
     cursor: pointer;
-    transition: all 0.3s ease-in-out;
 }

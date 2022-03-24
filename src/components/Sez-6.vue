@@ -3,21 +3,27 @@
         <div class="contenitore">
             <div class="contenitore_card">
                 <div class="card card-1">
-                    <div class="icona"></div>
+                    <figure class="icona">
+                        <img src="../assets/img_fitness/smartwatch-svgrepo-com.svg" alt="">
+                    </figure>
                     <h3>Team training</h3>
                     <h4>Find a partner</h4>
                     <p>Vestibulum, curabitur eu sem nibh ultrices sit nulla adipishing. Nisl sit fames amet senectus eget sed duis vehicula. Tristique.</p>
                     <h5><a href="#">Find a partner <i class="fa-regular fa-chevron-right"></i></a></h5>
                 </div>
                 <div class="card card-2">
-                     <div class="icona"></div>
+                     <figure class="icona">
+                        <img src="../assets/img_fitness/dumbbell-svgrepo-com.svg" alt="">
+                     </figure>
                     <h3>Crossfit workout</h3>
                     <h4>Push your limits</h4>
                     <p>Vestibulum, curabitur eu sem nibh ultrices sit nulla adipishing. Nisl sit fames amet senectus eget sed duis vehicula. Tristique.</p>
                     <h5><a href="#">Learn about Crossfit <i class="fa-regular fa-chevron-right"></i></a></h5>
                 </div>
                 <div class="card card-3">
-                     <div class="icona"></div>
+                     <figure class="icona">
+                        <img src="../assets/img_fitness/slim-down-slim-svgrepo-com.svg" alt="">
+                     </figure>
                     <h3>Weight loss plan</h3>
                     <h4>Shed those pounds</h4>
                     <p>At laoreet sensectus volutpat diam vei sed sed amet pellentesque. Lobortis ut aliquam risus purus. A tellus ut etiam.</p>
@@ -80,6 +86,11 @@ export default {
                 color: white;
                 font-size: 20px;
                 font-weight: 500;
+            }
+
+            .icona{
+                filter: invert(1);
+                width: 200px;
             }
         }
 

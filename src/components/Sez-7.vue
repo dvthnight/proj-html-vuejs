@@ -95,12 +95,36 @@ export default {
         }
 
         .card_image{
-        width: 406px;
-        img{
-            border-radius: 5px;
-            border-bottom-right-radius: 30px;
-            }
+            width: 406px;
+            position: relative;
         }
+
+        .card_image::after{
+            content: "";
+            display: block;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-image: linear-gradient(to top, rgba(50,82,245,0.8),rgba(0, 0, 0, 0));
+            position: absolute;
+            height: 262px;
+            opacity: 0;
+            transition: 2s all;
+        }
+
+        .card_image:hover::after{
+            opacity: 1;
+            
+        }
+
+
+
+        
+       
+
+        
+        
 
     }
 </style>
